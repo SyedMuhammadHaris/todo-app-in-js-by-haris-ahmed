@@ -1,0 +1,144 @@
+@import '<link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">';
+
+body{
+    margin: 0;
+    padding: 0;
+    /* /* text-align: center; */
+    /* background-color: #ff8a65; */
+    color: #fff;
+    text-align: center;
+    background-image: url('logo/background.jpg');
+   
+} 
+*{
+    font-family: 'Chewy', cursive;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #ff8a65;
+    width: 100%;
+    height: 70px;
+}
+/* @media screen and (min-width: 370px) { 
+    .heading{
+        width: 110%;
+        background-color: #ff8a65;
+    }
+    
+    
+}
+@media screen and (min-width: 320px) { 
+    .heading{
+        width: 120%;
+        background-color: #ff8a65;
+    }
+    
+} */
+.heading > img{
+    margin-left: 10px;
+    margin-top: 4px;
+}
+h1{
+    margin-left: 10px;
+
+}
+.container{
+    color: rgba(0, 0, 0, 0.87);
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 10px, rgba(0, 0, 0, 0.23) 0px 3px 10px;
+    border-radius: 2px;
+    height: auto;
+    min-height: 500px;
+    width: 350px;
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+h2{
+    font-size: 35px;
+    color: black;
+}
+#todoitem{
+    border: none;
+    border-color: transparent;
+    width: 50%;
+}
+/* input:focus {
+  border: none;
+
+  } */
+  #todoitem[type=text]:focus {
+    width: 80%;
+    outline: none;
+  }
+  input::placeholder{
+      text-align: start;
+      opacity: 0.4;
+  }
+  
+  hr{
+      width: 80%;
+    border: 1px solid orange;
+  }
+.btn{
+    border-radius: 2px;
+     margin-top: 10px; 
+
+    border: none;
+    box-sizing: border-box;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 5px;
+    padding: 0px;
+     outline: none;
+
+    position: relative;
+    height: 36px;
+    line-height: 36px;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: 3px 3px 15px #ccc;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-size: 15px;
+}  
+.btn:hover{
+ 
+    background-color: #d5e8ec;
+ 
+}
+.lists {
+    list-style-type: none;
+
+    margin-bottom: 5px;
+    margin-left: 0;
+    width: 80%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    font-size: 20px;
+}
+
+.buttons {
+ background-color: #ff8a65;
+  border: #ff8a65 2px solid;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  color: #fff;
+  margin-top: 20px;
+  width:71px;
+  outline: none;
+}
+.buttons:hover{
+    cursor: pointer;
+}
+
+  
